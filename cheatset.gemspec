@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Bogdan Popescu']
   spec.description   = 'Generate cheat sheets for Dash'
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/Kapeli/cheatset'
+  spec.homepage      = 'https://github.com/livando/cheatset'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
