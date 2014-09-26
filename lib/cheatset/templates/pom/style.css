@@ -1,0 +1,20 @@
+footer {
+  background-color: #000;
+}
+section.category {
+  border: 2px solid #505050;
+  background-color: #505050;
+}
+header {
+  height: 85px;
+  background:#fff;
+  border-top:12px solid #000;
+}
+header img {
+  margin:22px 0 0 5px;
+}
+header h1 {
+  padding: 15px 0 0 0;
+  margin: 23px 0 0 40px;
+  color:#7c7e0e;
+}

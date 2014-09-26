@@ -2,7 +2,7 @@ module Cheatset
   module DSL
     class Cheatsheet < Base
       attr_reader :categories, :brand
-      define_attrs :title, :docset_file_name, :keyword, :source_url, :platform, :style, :resources, :brand, :logo
+      define_attrs :title, :docset_file_name, :keyword, :source_url, :platform, :style, :resources, :brand, :logo, :logo_size
       define_markdown_attrs :introduction, :notes
 
       def initialize(&block)
