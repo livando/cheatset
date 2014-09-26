@@ -7,9 +7,10 @@ require 'uri'
 require 'pathname'
 
 class Cheatset::Creator
-  def initialize(cheatsheet, filename)
+  def initialize(cheatsheet, filename, brand)
     @cheatsheet = cheatsheet
     @filename = filename
+    @brand = brand
     @docset_path = "#{@cheatsheet.docset_file_name}.docset"
     @path = "#{@docset_path}/Contents/"
   end

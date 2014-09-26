@@ -7,7 +7,7 @@ module Cheatset
         @brand = brand
       end
       def generate
-        Cheatset::Creator.new(@data, @filename).generate
+        Cheatset::Creator.new(@data, @filename, @brand).generate
       end
       private
 
