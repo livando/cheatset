@@ -15,8 +15,8 @@ end
 module Cheatset
   class CLI < Thor
     desc 'generate FILE', 'Generates cheatsheet out of a file'
-    def generate(file)
-      context = Cheatset::DSL::Context.new(file)
+    def generate(file, brand='ric')
+      context = Cheatset::DSL::Context.new(file, brand)
       context.generate
     end
   end

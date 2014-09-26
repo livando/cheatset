@@ -1,9 +1,10 @@
 module Cheatset
   module DSL
     class Context
-      def initialize(filename)
+      def initialize(filename, brand)
         instance_eval(File.read(filename), File.expand_path(filename))
         @filename = filename
+        @brand = brand
       end
       def generate
         Cheatset::Creator.new(@data, @filename).generate
