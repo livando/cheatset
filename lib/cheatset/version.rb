@@ -1,3 +1,3 @@
 module Cheatset
-  VERSION = '1.2.20.7'
+  VERSION = '1.2.20.8'
 end
