@@ -42,7 +42,7 @@ class Cheatset::Creator
 
     # resources
     FileUtils.cp_r("#{tpl_path}/cheatset_resources", doc_path)
-    FileUtils.mv("#{tpl_path}/cheatset_resources/ric/", doc_path)
+    FileUtils.cp_r("#{tpl_path}/ric", doc_path)
     resources = @cheatsheet.resources
     if resources && !resources.empty?
       if Pathname.new(resources).absolute?
